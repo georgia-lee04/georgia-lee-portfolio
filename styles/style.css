@@ -2,6 +2,7 @@
   --primary-color: #e4f1fe;
   --secondary-color: #a5bdfd;
   --default-font-family: "Poppins", serif;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -26,6 +27,17 @@ p {
 
 img {
   border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+
+.project-img {
+  max-height: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+.project-img:hover {
+  transform: scale(1.1);
 }
 
 nav {
@@ -112,6 +124,11 @@ nav li.active a {
   margin: 30px;
 }
 
+.contact-link {
+  text-decoration: none;
+  color: black;
+}
+
 footer {
   margin: 60px 0;
 }
@@ -133,7 +150,8 @@ footer .email-link {
   font-size: 24px;
 }
 
-footer .email-link:hover {
+footer .email-link:hover,
+.contact-link:hover {
   color: var(--secondary-color);
 }
 
