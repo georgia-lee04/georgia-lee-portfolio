@@ -51,14 +51,14 @@ nav a {
 }
 
 nav a:hover,
-nav li :active a {
+nav li.active a {
   color: var(--secondary-color);
 }
 
 .hero {
   background: var(--primary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .btn-branding {
@@ -97,7 +97,7 @@ nav li :active a {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content-container h1 {
@@ -165,10 +165,6 @@ footer .end-links:hover {
   .project-description {
     padding: 0;
     text-align: center;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   h1 {
