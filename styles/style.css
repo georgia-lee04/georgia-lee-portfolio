@@ -10,6 +10,12 @@ body {
   color: black;
 }
 
+.hero h1,
+.hero h2,
+.hero p {
+  color: #163853;
+}
+
 h1 {
   font-weight: 200;
   font-size: 96px;
